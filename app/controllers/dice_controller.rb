@@ -56,5 +56,4 @@ class DiceController < ApplicationController
     end
 
     render({ :template => "dice_templates/result_fifty_six" })
-  end
 end

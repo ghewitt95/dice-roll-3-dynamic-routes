@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   get("/dice/5/4", { :controller => "dice", :action => "roll_five_four" })
 
 
-  get("/dice/:number_of_dice/6", { :controller => "dice", :action => "roll_fifty_six" })
+  get("/dice/:alice/6", { :controller => "dice", :action => "roll_fifty_six" })
 end
